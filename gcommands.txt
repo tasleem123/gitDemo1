@@ -1,0 +1,9 @@
+git --version : It shows you the version of the git software
+git init : It initialized the git so that a specific directory is managed by the git program, It starts tracking the changes in the specified directory
+git status : It displays the status of the file you have changed or removed or added into the git directory
+git add file1
+git add file1 file2
+git add *
+git add -A
+git rm --cached file1 or git rm --cached : It will remove the files or folders from the caching/staging area to the working area
+git rm-- cached -f : In case files are not moving back to working area from staging area we have to use the force option
