@@ -10,3 +10,4 @@ git rm-- cached -f : In case files are not moving back to working area from stag
 
 git commit
 git merge<branchname>
+git remote
