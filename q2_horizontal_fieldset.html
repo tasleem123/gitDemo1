@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Horizontal Fieldset</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+    <style>
+        
+        #parent{
+            display: flex;
+            width: 35%;
+            justify-content: space-around;
+        }
+
+       #div1,#div2{
+        width: 300px;     
+        }
+
+       label{
+        position: absolute;
+        }
+        
+       input{
+        margin-left: 65px;
+        }
+</style>
+</head>
+<body>
+    <div>
+    <fieldset id="parent">
+        <legend><h2>Personal Details</h2></legend>
+        <div id="div1">
+        <fieldset>
+            <legend>Address Details</legend>
+            <label for="city">City: </label>
+            <input type="text" name="city>" id="city"><br><br>
+            <label for="zip">Zip Code: </label>
+            <input type="text" name="zip>" id="zip">
+        </fieldset></div>
+        <div id="div2">
+        <fieldset>
+            <legend>Telephone Details</legend>
+            <label for="home">Home: </label>
+            <input type="text" name="home>" id="home"><br><br>
+            <label for="cell">Cell: </label>
+            <input type="text" name="cell>" id="cell">
+        </fieldset></div>
+    </fieldset>
+</div>
+</body>
+</html>
