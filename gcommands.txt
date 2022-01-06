@@ -7,3 +7,5 @@ git add *
 git add -A
 git rm --cached file1 or git rm --cached : It will remove the files or folders from the caching/staging area to the working area
 git rm-- cached -f : In case files are not moving back to working area from staging area we have to use the force option
+
+git commit
